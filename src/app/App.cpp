@@ -1,8 +1,8 @@
 #include "App.h"
-#include "src/core/Window.h"
-#include "src/vulkan/VulkanContext.h"
-#include "src/vulkan/Swapchain.h"
-#include "src/vulkan/Renderer.h"
+#include "core/Window.h"
+#include "vulkan/VulkanContext.h"
+#include "vulkan/Swapchain.h"
+#include "vulkan/Renderer.h"
 
 App::App(int width, int height, const std::string& title) {
     window_ = std::make_unique<Window>(width, height, title.c_str());

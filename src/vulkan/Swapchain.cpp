@@ -1,6 +1,6 @@
 #include "Swapchain.h"
 #include "VulkanContext.h"
-#include "src/core/Window.h"
+#include "core/Window.h"
 #include <GLFW/glfw3.h>
 #include <stdexcept>
 #include <vector>

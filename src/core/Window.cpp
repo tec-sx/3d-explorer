@@ -1,4 +1,5 @@
 #include "Window.h"
+#include <stdexcept>
 
 static void glfwErrorCallback(int error, const char* description) {
     (void)error;
